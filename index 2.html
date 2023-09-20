@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fee41f9e38.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Front-end Developer</p>
+                <h1>Hi, I'm <span>Manoj</span> <br>Reddy From Jadcherla</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Iam dedicated to work hard on the career goals.I will specially focus on the day to day work process to achieving the goals.My confidence make more focus on the work.I will do my work honestly.I will challenge my daily task well defined structured manner.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-end</span><br>Developer Web/App interfaces</li>
+                            <li><span>Java</span><br>Developer in the App interfaces</li>
+                            <li><span>Problem-solving</span><br>using Data Structures using C++ and Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2023</span><br>Bharat intern role of  web Developer</li>
+                        <li><span>2022-23</span><br>Html,Css,Javascript in Coursera </li>
+                        <li><span>2023</span><br>Aicte-Eduskills Virtual in internship at Domain of Cybersecurity</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2021-25</span><br>Sreenidhi Institute of Science& Technology at Yamanpet</li>
+                    <li><span>2019-21</span><br>Narayana junior college at ravirala</li>
+                    <li><span>2015-19</span><br>Sri chaitanya high school at Haythnagar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                      <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odit labore quaerat doloribus eum aperiam voluptate, doloremque asperiores impedit? Reprehenderit quae, impedit blanditiis illum optio voluptatem iure laboriosam temporibus nobis.</p>
+                        <a href="#">Learn more</a>
+                      </div>
+                      <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odit labore quaerat doloribus eum aperiam voluptate, doloremque asperiores impedit? Reprehenderit quae, impedit blanditiis illum optio voluptatem iure laboriosam temporibus nobis.</p>
+                        <a href="#">Learn more</a>
+                      </div>
+                      <div>
+                        <i class="fa-brands fa-android"></i>
+                        <h2>Android/ios Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odit labore quaerat doloribus eum aperiam voluptate, doloremque asperiores impedit? Reprehenderit quae, impedit blanditiis illum optio voluptatem iure laboriosam temporibus nobis.</p>
+                        <a href="#">Learn more</a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id=portfolio>
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="D:\.vscode\work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you the talented people around the world.Download it from Play store.To know the information in surroundings the apps likes Twitter,Instagram,Youtube etc should access the news very fast</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i>></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="D:\.vscode\work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you the talented people around the world.Download it from Play store.The like spotify,wynk etc are best to listen the songs</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i>></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="D:\.vscode\work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you the talented people around the world.Download it from Play store.The amazon,flipkart,blinkit,bigbasket etc are useful for day to day activity works.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i>></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>dareddymanoj1234@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9618122703</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/manoj.darreddy"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/manoj-reddy-dareddy-15352126a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.github.com/Manoj2805"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://instagram.com/manoj_reddy_001_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" download class="btn btn2">Download Resume</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea type="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="Submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>CopyRight &copy; reserved <i class="fa-solid fa-heart"></i> in 2023 by Manoj</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
