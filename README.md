@@ -50,10 +50,7 @@ You can tweak this description as per your role and specific accomplishments dur
 
 
 
-You said:
-  give the step by step explanation
-ChatGPT said:
-ChatGPT
+
 Here’s a step-by-step explanation of how you developed your personal portfolio website, which can help you articulate your process during an interview:
 
 Step-by-Step Explanation of Building the Personal Portfolio Website:
